@@ -62,6 +62,7 @@ class Answer(BaseModel):
 
 
 
+
 下面是成功爬取数据库后的部分示例数据：
 
 ![image-20200520180632058](C:\Users\WHL\AppData\Roaming\Typora\typora-user-images\image-20200520180632058.png)
@@ -95,4 +96,5 @@ class Answer(BaseModel):
   当线程A在爬取帖子相关的信息时，将获取到的帖子url放到阻塞队列，让负责处理回帖信息的线程B去获取并处理。
 
   同样地，线程B也会将用户url放到阻塞队列，让负责处理用户信息的线程C去获取并处理。
+
 
