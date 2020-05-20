@@ -60,12 +60,8 @@ class Answer(BaseModel):
     praised_nums = pw.IntegerField(default=0)  # 回帖点赞数
 ```
 
-
-
-
 下面是成功爬取数据库后的部分示例数据：
-
-![image-20200520180632058](C:\Users\WHL\AppData\Roaming\Typora\typora-user-images\image-20200520180632058.png)
+![img](https://i.loli.net/2020/05/20/wDmq6nJEagvOzyx.png)
 
 
 
